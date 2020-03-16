@@ -1,9 +1,9 @@
 import { expect } from 'chai';
-import t from '../dist/index';
+import a from '../dist/index';
 
-describe('xxx', () => {
-	it('xxx', () => {
-		t();
-		expect(1).not.eq(2);
+const mm = { data: { local: { key: '665' } } }
+describe('local remove', async () => {
+	it('remove local value', async () => {
+		a(mm, 'key');
 	});
 });
