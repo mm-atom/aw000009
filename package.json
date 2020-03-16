@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/aw000009",
-	"version": "1.0.0",
+	"version": "1.0.202003160908",
 	"description": "local remove",
 	"scripts": {
 		"test": "npm run build && karma start --single-run",
